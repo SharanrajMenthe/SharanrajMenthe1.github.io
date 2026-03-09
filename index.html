@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Solapur Tourism</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Solapur Tourism</h1>
+<nav>
+<a href="home.html">Home</a>
+<a href="places.html">Places</a>
+<a href="culture.html">Culture</a>
+<a href="travel.html">Travel Guide</a>
+<a href="food.html">Food</a>
+</nav>
+</header>
+
+<div class="container">
+<h2>Welcome to Solapur Tourism Website</h2>
+
+<p>Explore the spiritual city of Solapur. Discover temples, culture, travel information and delicious local food.</p>
+
+<h3>Tourist Enquiry</h3>
+
+<form onsubmit="submitForm(); return false;">
+<input type="text" id="name" placeholder="Enter your name" required><br><br>
+<input type="email" id="email" placeholder="Enter your email" required><br><br>
+<input type="text" id="country" placeholder="Enter your country"><br><br>
+<button type="submit">Submit</button>
+</form>
+
+<p id="message"></p>
+
+</div>
+
+<script src="enquiry.js"></script>
+
+</body>
+</html>
